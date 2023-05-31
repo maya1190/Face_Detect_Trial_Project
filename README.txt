@@ -28,6 +28,9 @@ Configuration:
 The script uses the 'haarcascade_frontalface_default.xml' file for face detection. You can replace this file with a different cascade XML file for custom object detection.
 Note that the tree version is not used as it was found to work in a worse manner.
 
+License
+This project is licensed under the MIT License. Please review the LICENSE file for more details.
+
 Contributing:
 
 They are not needed as this is a closed project, just for practice and fun.
