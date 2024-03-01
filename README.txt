@@ -1,36 +1,38 @@
-Face Detection Project
+# Face Detection Project
 
-This is a Py Script that uses opencv to allow face detection in real-time using Haar cascade classifier.
+This Python script utilizes OpenCV to enable real-time face detection using Haar cascade classifier.
 
-There is a requirements.txt file that allow you to install the pre-requisites module
+## Installation
 
-- Python 3.x
-- opencv library (cv2)
+- Clone the repository or download the script.
+- Install the dependencies by running:
+  
+pip install -r requirements.txt
 
-Therefore:
+## Usage
 
-- Clone the repo or download the script
-- install the dependencies
-
-The script does not need any special commands to run as the main function has allowed for easer use.
-Therefore run with the following command:
+Simply run the script with the following command:
 
 py Face_Detect.py
 
-This will launch the video feed with real time face detection.
+This will launch the video feed with real-time face detection.
 
-The script will open a video window that will display the live webcam feed.
-Faces deceted in the video feed will be highlghted by a yellow rectangle and red words.
-To exit the script press Esc on the keyboard on the GUI.
+## Features
 
-Configuration:
+- The script opens a video window displaying the live webcam feed.
+- Detected faces in the video feed are highlighted by a yellow rectangle and red words.
+- To exit the script, press Esc on the keyboard.
 
-The script uses the 'haarcascade_frontalface_default.xml' file for face detection. You can replace this file with a different cascade XML file for custom object detection.
-Note that the tree version is not used as it was found to work in a worse manner.
+## Configuration
 
-License
-This project is licensed under the MIT License. Please review the LICENSE file for more details.
+The script uses the `haarcascade_frontalface_default.xml` file for face detection. You can replace this file with a different cascade XML file for custom object detection. Note that the tree version is not used as it was found to work in a worse manner.
 
-Contributing:
+## License
 
-They are not needed as this is a closed project, just for practice and fun.
+This project is licensed under the MIT License. Please review the [LICENSE](LICENSE) file for more details.
+
+## Contributing
+
+Contributions are not needed as this is a closed project, created for practice and fun.
+
+Feel free to reach out with any questions or feedback!
